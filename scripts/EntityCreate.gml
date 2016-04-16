@@ -1,0 +1,1 @@
+spriteName = sprite_index;

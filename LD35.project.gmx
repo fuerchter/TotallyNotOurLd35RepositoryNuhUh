@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr32</sprite>
+    <sprite>sprites\spr32_blueprint</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -17,6 +18,8 @@
     <script>scripts\PlayerMove.gml</script>
     <script>scripts\EnemyCreate.gml</script>
     <script>scripts\EnemyMove.gml</script>
+    <script>scripts\DrawEntity.gml</script>
+    <script>scripts\EntityCreate.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
@@ -24,7 +27,8 @@
     <object>objects\Enemy</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\loadingRoom</room>
+    <room>rooms\testRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
