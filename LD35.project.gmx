@@ -24,6 +24,7 @@
     <script>scripts\DrawEntity.gml</script>
     <script>scripts\EntityCreate.gml</script>
     <script>scripts\DrawRoom.gml</script>
+    <script>scripts\EnemyDetectPlayer.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
