@@ -9,14 +9,19 @@
     <sprite>sprites\spr32</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\enemyPath0</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\PlayerCreate.gml</script>
     <script>scripts\PlayerMove.gml</script>
+    <script>scripts\EnemyCreate.gml</script>
+    <script>scripts\EnemyMove.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\Floor</object>
+    <object>objects\Enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
@@ -25,7 +30,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\fuerchter2\AppData\Local\GameMaker-Studio\Tutorials\My_First_Game</TutorialName>
     <TutorialPage>2</TutorialPage>
   </TutorialState>
