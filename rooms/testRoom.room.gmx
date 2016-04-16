@@ -10,18 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>if (global.blueprint)
-{
-    for (i = 0; i &lt; room_width; i += 32)
-    {
-        for (j = 0; j &lt; room_height; j += 32)
-        {
-            var tile;
-            tile = tile_layer_find(1, i, j);
-            if tile_exists(tile) tile_set_background(tile, asset_get_index(background_get_name(tile_get_background(tile)) + "_blueprint"));
-        }
-    }
-}</code>
+  <code>script_execute(DrawRoom);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

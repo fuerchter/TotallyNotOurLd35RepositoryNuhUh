@@ -23,6 +23,7 @@
     <script>scripts\EnemyMove.gml</script>
     <script>scripts\DrawEntity.gml</script>
     <script>scripts\EntityCreate.gml</script>
+    <script>scripts\DrawRoom.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
