@@ -9,16 +9,12 @@
     <sprite>sprites\spr32</sprite>
     <sprite>sprites\spr32_blueprint</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-    <background>background\background0_blueprint</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths">
     <path>paths\enemyPath0</path>
   </paths>
   <scripts name="scripts">
-    <script>scripts\DrawEntity.gml</script>
-    <script>scripts\DrawRoom.gml</script>
+    <script>scripts\EntityDraw.gml</script>
     <script>scripts\EnemyCreate.gml</script>
     <script>scripts\EnemyDetectPlayer.gml</script>
     <script>scripts\EnemyMove.gml</script>
@@ -39,7 +35,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\fuerchter2\AppData\Local\GameMaker-Studio\Tutorials\My_First_Game</TutorialName>
     <TutorialPage>2</TutorialPage>
   </TutorialState>

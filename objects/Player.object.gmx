@@ -149,7 +149,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>DrawEntity</script>
+            <script>EntityDraw</script>
           </argument>
           <argument>
             <kind>0</kind>
