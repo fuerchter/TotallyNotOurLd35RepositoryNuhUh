@@ -9,7 +9,10 @@
     <sprite>sprites\spr32</sprite>
     <sprite>sprites\spr32_blueprint</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background0_blueprint</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\enemyPath0</path>
   </paths>
