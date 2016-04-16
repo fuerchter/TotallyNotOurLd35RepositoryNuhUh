@@ -17,14 +17,14 @@
     <path>paths\enemyPath0</path>
   </paths>
   <scripts name="scripts">
+    <script>scripts\DrawEntity.gml</script>
+    <script>scripts\DrawRoom.gml</script>
+    <script>scripts\EnemyCreate.gml</script>
+    <script>scripts\EnemyDetectPlayer.gml</script>
+    <script>scripts\EnemyMove.gml</script>
+    <script>scripts\EntityCreate.gml</script>
     <script>scripts\PlayerCreate.gml</script>
     <script>scripts\PlayerMove.gml</script>
-    <script>scripts\EnemyCreate.gml</script>
-    <script>scripts\EnemyMove.gml</script>
-    <script>scripts\DrawEntity.gml</script>
-    <script>scripts\EntityCreate.gml</script>
-    <script>scripts\DrawRoom.gml</script>
-    <script>scripts\EnemyDetectPlayer.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
@@ -39,7 +39,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\fuerchter2\AppData\Local\GameMaker-Studio\Tutorials\My_First_Game</TutorialName>
     <TutorialPage>2</TutorialPage>
   </TutorialState>
